@@ -1,0 +1,220 @@
+:root {
+    --cor-background: #000000;
+    --font-padrao: 'Inter';
+    --cor-font-padrao: #FFFFFF;
+    --cor-background2: #242424;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-background);
+    font-family: var(--font-padrao);
+    color: var(--cor-font-padrao);
+    font-weight: 400;
+}
+
+.principal {
+    background-size: contain;
+    margin: 1em 20% 1em 20%;
+    border-radius: 1em;
+    border: 0.5px solid #adadad;
+}
+
+/*CSS DO INDEX*/
+
+/*Container navegação*/
+
+.container__navegacao {
+    background-color: var(--cor-background2);
+}
+
+.container__link {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.link__nav, .link__nav a, .nav{
+    color: #dbdbdb;
+    text-decoration: none;
+    padding: 0.4em 1em 0.1px 0;
+    font-size: 22px;
+    transition: 0.5s all;
+}
+
+.link__nav, .link__nav a, .nav:hover{
+    color: #2f345a;
+    transform: scale(1.1);
+}
+
+/*Container sobre mim*/
+
+.container {
+    height: 80vh; 
+}
+
+.container__titulo {
+    width: 700;
+    color: var(--cor-font-padrao);
+}
+
+.container__sobremim {
+    padding: 1em;
+}
+
+.container__perfil {
+    border-radius: 5px;
+    margin: 0 1em 0 1em;
+    float: left;
+}
+
+.container__texto {
+    padding: 0.4em;
+    width: 400;
+}
+
+/*Container habilidades*/
+
+.container__habilidades {
+    margin-top: 50px;
+    padding: 0 1em 1em 1em;
+    display: block;
+    color: var(--cor-font-padrao);
+}
+
+.lista__habilidades {
+    display: flex;
+    justify-content: left;
+    list-style-type: none;
+    margin-left: 1em;
+}
+
+.lista__img2 {
+    width: 73px;
+}
+
+.lista__img1{
+    width: 100px;
+}
+
+.icones__textocss{
+    margin-left: 1.2em;
+}
+
+.icones__textohtml {
+    margin-left: 1.8em;
+}
+
+.icones {
+    padding-left: 2em;
+    transition: 0.5s all;
+}
+
+.icones:hover {
+    transform: scale(1.2);
+}
+
+/*Container footer*/
+
+.container__footer {
+    background-color: var(--cor-background2);
+    height: 8vh;
+}
+
+.container__textofooter {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 3em;
+}
+
+/*CSS PÁGINA CONTATO*/
+
+.container__titulocontato {
+    width: 700;
+    color: var(--cor-font-padrao);
+    margin: 1em;
+}
+
+.lista__contato {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-left: 1em;
+}
+
+.icone__botao {
+    width: 90px;
+    background-color: var(--cor-background);
+}
+
+.icone__contato {
+    margin-top: 1em;
+    padding: 4em 2em 0 2em;
+    transition: 0.5s all;
+}
+
+.icone__contato, button {
+    border: 0px;
+    background-color: #000000;
+}
+
+.icone__contato:hover {
+    transform: scale(1.2);
+}
+
+.icone__texto {
+    margin-left: 0.7em;
+}
+
+.container__textocontato {
+    text-align: center;
+    padding: 3em;
+    margin-top: 1em;
+    font-style: italic;
+    color: gray;
+}
+
+/*CSS PÁGINA TRABALHOS*/
+
+.container__trabalhos {
+    margin: 1em 10% 1em 10%;
+}
+
+.container__titulotrabalhos {
+    padding: 1em 0 0 1em;
+}
+
+.container__titulotrabalhos2 {
+    padding: 1em 0 0 1em;
+    font-style: italic;
+    font-weight: lighter;
+    color: gray;
+    font-size: 19px;
+}
+
+.trabalho__img {
+    width: 290px;
+    float: left;
+    margin-right: 1em;
+}
+
+.pagina__trabalhos2 {
+    margin-top: 7em;
+}
+
+.lista__trabalhos {
+    list-style-type: none;
+    margin-left: 1em;
+}
+
+.container__trabalhotitulo {
+    font-weight: bold;
+    
+}
+
+.container__trabalhotexto {
+}
